@@ -23,17 +23,24 @@ A RESTful Task Management API with a CLI interface built with Python (FastAPI an
 
 ## Installation & Setup
 
-1. **Activate Virtual Environment** (pre-created or create one):
+1. **Clone the project**:
    ```bash
+   git clone https://github.com/lakumbhavdip/task-manager-api-cli.git
+   cd task-manager-api-cli
+   ```
+
+2. **Setup Virtual Environment**:
+   ```bash
+   python3 -m venv venv
    source venv/bin/activate
    ```
 
-2. **Install dependencies**:
+3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Start the API server**:
+4. **Start the API server**:
    ```bash
    uvicorn app.main:app --reload
    ```
